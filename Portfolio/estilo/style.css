@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabprincipal {
+  width: 100%; height: 30px;
+  background-color: #A80501;
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.116);
+  position: fixed;
+}
+
+#navprincipal ul {
+  margin: 0 220px 0 0;
+  float: right;
+}
+
+#navprincipal ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+#navprincipal a {
+  text-decoration: none;
+  color: white;
+  padding: .5px 10px;
+  font-size: 1.5em;
+}
+
+#navprincipal a:hover {
+  transition: .1s;
+  background-color: rgb(44, 34, 34);
+}
+
+#secimg {
+  height: 500px;width: 100%;
+  background: linear-gradient(#00000048, #0000001e), url(../imagens/corrida-1980.jpg) 0 380px;
+  padding-top: 230px;
+  margin-bottom: 50px;
+}
+
+#secimg:hover {
+  background: linear-gradient(#000000c2, #00000093), url(../imagens/corrida-1980.jpg) 0 100px;
+  transition: 1s;
+}
+
+.txtimg {
+  color: rgb(221, 221, 221);
+  font-size: 2.3em;
+  text-align: center;
+  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.233);
+}
+
+#secimg:hover .txtimg {
+  width: 68%;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.233);
+  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.233);
+  transition: 1s;
+}
+
+#sart {
+  width: 100%;height: 450px;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 1.7em;
+}
+
+#sart article {
+  width: 400px;
+  padding: 30px;
+  background: url(../imagens/aspas01.jpg) no-repeat -350px -180px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.233);
+  float: left;
+  margin-left: 100px;
+}
+
+#sart aside {
+  background-color: none;
+  float: right;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+
+#secpatr {
+  height: 350px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.192);
+}
+
+.txtpatr {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.imgmargin {
+  margin-right: 100px;
+}
+
+#rodprincipal {
+  color: white;
+  height: 100px;
+  background-color: #050000;
+  text-align: center;
+}
+
+#rodprincipal a {
+  color: white;
+}
+
+address {
+  padding-top: 30px;
+}
