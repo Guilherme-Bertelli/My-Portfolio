@@ -1,4 +1,4 @@
 # My Portfólio!
  Repositório criado especificamente para o meu PORTFÓLIO!
  
-Linha inserida através do README!!
+Aqui você pode ver algumas das linguagens que domino, e que estou aprendendo!!
